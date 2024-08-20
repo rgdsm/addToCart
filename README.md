@@ -52,7 +52,3 @@ Certifique-se de ter o seguinte instalado:
 ## Contribuição
 
 Contribuições são bem-vindas! Se você tiver sugestões ou melhorias, sinta-se à vontade para fazer um fork do repositório e enviar um pull request. Alternativamente, você pode abrir uma issue para discutir mudanças potenciais.
-
-## Licença
-
-Este projeto é licenciado sob a Licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
