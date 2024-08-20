@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/Projetos/src/index.js" defer></script>
+    <link rel="stylesheet" href="/Projetos/styles/style.css">
+    <script src="https://kit.fontawesome.com/2bc4beaad9.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+
+    <header class="headerArea"><!-- Header -->
+        <h1 class="title">Xopii</h1>
+        <nav class="navbar">
+            <form action="" id="navForm">
+                <input type="text" id="inputText" placeholder="Digite o nome do produto">
+                <input type="button" value="Buscar" id="inputButton">
+            </form>
+
+        </nav>
+        <div id="cartArea">
+            <div id="icon">
+                <a href="#sectionBar"><i class="fa-solid fa-cart-shopping fa-2x" id="cartIcon"></i></a>
+            </div>
+
+        </div>
+    </header>
+
+    <!-- Main -->
+     <main class="mainArea">
+        <section class="productArea">
+
+            <div class="cards"><!-- Cards -->
+                <div class="card">
+                   <img src="/Projetos/assets/fone1.jpg" alt="fone de ouvido" class="imgClass">
+                   <p class="productName">Fone de ouvido JBeli</p>
+                   <p id="price">R$ <span id="priceValue">59,90</span></p>
+                   <input type="button" value="Adicionar ao carrinho" class="sendToCart">
+                   
+                </div>
+                <div class="card">
+                    <img src="/Projetos/assets/fone2.jpg" alt="fone de ouvido" class="imgClass">
+                    <p class="productName">Fone de ouvido Multirazer</p>
+                    <p id="price">R$ <span id="priceValue">59,90</span></p>
+                    <input type="button" value="Adicionar ao carrinho" class="sendToCart">
+                 </div>
+                 <div class="card">
+                    <img src="/Projetos/assets/pá.webp" alt="pá" class="imgClass">
+                    <p class="productName">Pá</p>
+                    <p id="price">R$ <span id="priceValue">49,90</span></p>
+                    <input type="button" value="Adicionar ao carrinho" class="sendToCart">
+                 </div>
+                 <div class="card">
+                    <img src="/Projetos/assets/picareta.webp" alt="picareta" class="imgClass">
+                    <p class="productName">Picareta</p>
+                    <p id="price">R$ <span id="priceValue">79,90</span></p>
+                    <input type="button" value="Adicionar ao carrinho" class="sendToCart">
+                 </div>
+            
+        </section>
+
+        <section class="cartArea" id="sectionBar">
+            <div class="cartItem">
+                <h2 id="cartTitle">Carrinho de Compras</h2>
+                <ul id="cartItems"></ul>
+            </div>
+        </section>
+     </main>
+
+</body>
+</html>
